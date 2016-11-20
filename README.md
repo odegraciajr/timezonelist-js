@@ -10,25 +10,19 @@ $ npm install timezonelist-js
 
 ## Usage
 
-```html
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Timezone test</title>
-</head>
-<body>
-<select id="timezone">
-	<option value="none">Select Timezone</option>
-</select>
-<script>
-	var tzlist = require('timezonelist-js')
-	var select = document.getElementById("timezone")
+```js
+var tzlist = // require('timezonelist-js') assuming tzlist in used on the backend and passed as javascript object to front-end
+var select = document.getElementById("timezone") //get your <select></select> element
 
-	for (var i = 0; i < tzlist.length; i++) {
-		var timezone = tzlist[i]
-		select.options[i] = new Option(timezone.text, timezone.value)
-	}
-</script>
-</body>
-</html>
+for (var i = 0; i < tzlist.length; i++) {
+	var timezone = tzlist[i]
+	select.options[i] = new Option(timezone.text, timezone.value)
+}
+```
+
+## Output
+```json
+
+{ id: 'Pacific/Midway', value: '(UTC-11:00) Midway Island', place: 'Midway Island', time: '-11:00' }
+
 ```
