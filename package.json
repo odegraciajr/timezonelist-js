@@ -1,0 +1,25 @@
+{
+  "name": "timezone-list",
+  "version": "0.1.0",
+  "description": "List of timezone in javascript object that is reusable on every project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odegraciajr/timezone-list.git"
+  },
+  "keywords": [
+    "timezone",
+    "moment",
+    "utc",
+    "gmt"
+  ],
+  "author": "odegraciajr <odegraciajr@gmail.com> (https://github.com/odegraciajr)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/odegraciajr/timezone-list/issues"
+  },
+  "homepage": "https://github.com/odegraciajr/timezone-list#readme"
+}
