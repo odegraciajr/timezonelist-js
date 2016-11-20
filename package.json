@@ -1,6 +1,6 @@
 {
   "name": "timezonelist-js",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "List of time zones you can use for your dropdown forms.",
   "main": "index.js",
   "scripts": {
