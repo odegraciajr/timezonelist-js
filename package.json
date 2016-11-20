@@ -1,7 +1,7 @@
 {
-  "name": "timezone-list",
+  "name": "timezonelist-js",
   "version": "0.1.0",
-  "description": "List of timezone in javascript object that is reusable on every project.",
+  "description": "List of time zones you can use for your dropdown forms.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,7 +19,7 @@
   "author": "odegraciajr <odegraciajr@gmail.com> (https://github.com/odegraciajr)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/odegraciajr/timezone-list/issues"
+    "url": "https://github.com/odegraciajr/timezonelist-js/issues"
   },
-  "homepage": "https://github.com/odegraciajr/timezone-list#readme"
+  "homepage": "https://github.com/odegraciajr/timezonelist-js#readme"
 }
